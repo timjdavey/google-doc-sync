@@ -1,7 +1,9 @@
+#Google document sync
+
 ##Description
 
-A small helper tool to sync a list of objects backed in a typical database, json, csv format with a google spreadsheet. Currently it only supports push sync 
-    
+At the moment this only supports **spreadsheets**. Its helper tool which syncs a list python objects with a google spreadsheet. At the moment only really supports safely push sync but can pull back for simpler objects.
+
 Two main common use cases are
 * Augment existing data in a flexible way. Add and append extra data columns to the object being sent over.
 * BI tool. Use Google's built in filter, graphs, charts & formula functions to cut up the data how the analysis likes.
